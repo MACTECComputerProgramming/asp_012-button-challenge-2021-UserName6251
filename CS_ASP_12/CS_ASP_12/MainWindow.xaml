@@ -1,0 +1,51 @@
+﻿<Window x:Class="CS_ASP_12.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CS_ASP_12"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="PencilButton" Content="Pencil" HorizontalAlignment="Left" Margin="66,140,0,0" VerticalAlignment="Top">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+        <RadioButton x:Name="PenButton" Content="Pen" HorizontalAlignment="Left" Margin="66,169,0,0" VerticalAlignment="Top">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+        <RadioButton x:Name="PhoneButton" Content="Phone" HorizontalAlignment="Left" Margin="66,202,0,0" VerticalAlignment="Top">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+        <RadioButton x:Name="PadButton" Content="Pad" HorizontalAlignment="Left" Margin="66,232,0,0" VerticalAlignment="Top">
+            <RadioButton.Effect>
+                <DropShadowEffect/>
+            </RadioButton.Effect>
+        </RadioButton>
+        <Label x:Name="Label" Content="Chose the one you prefer" HorizontalAlignment="Left" Margin="265,76,0,0" VerticalAlignment="Top">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Label x:Name="resultLabel" Content="you picked" HorizontalAlignment="Left" Margin="303,262,0,0" VerticalAlignment="Top">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="186,252,0,0" VerticalAlignment="Top" Height="28" Width="47" Click="Button_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Image x:Name="PencilBox" Margin="278,121,400,172" Stretch="Fill" Source="/pencil.png" Opacity="0"/>
+        <Image x:Name="PenBox" Margin="249,107,461,212" Stretch="Fill" Source="/pen.png" Opacity="0"/>
+        <Image x:Name="PhoneBox" Margin="256,125,461,195" Stretch="Fill" Source="/phone.png" Opacity="0"/>
+        <Image x:Name="TabBox" Margin="264,102,400,172" Stretch="Fill" Source="/tablet.png" Opacity="0"/>
+
+    </Grid>
+</Window>
